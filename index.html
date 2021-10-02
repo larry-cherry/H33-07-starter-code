@@ -24,7 +24,8 @@
             <h3>Index</h3>
             <p><button id="oak">Oak</button></p>
             <p><button id="beech">Beech</button></p>
-
+            <p><button id="apple">Apple</button></p>
+            
         </div>
         <div class="content">
             <iframe id="i_content" src="oak_content.html"
@@ -56,7 +57,10 @@
 
         })
 
-        /* This will not be merged !  */
+        $("#apple").click(function(){
+            $("#i_content").attr("src","apple_content.html");
+            $("#i_summary").attr("src","apple_summary.html");
+
 
 
     </script>
